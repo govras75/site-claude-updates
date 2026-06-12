@@ -1,18 +1,18 @@
 {
   "name": "SOLASS Site -> Claude",
   "slug": "solass-site-claude",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "author": "SOLASS / Oleh Hovras",
   "author_profile": "https://solass.com.ua",
   "requires": "5.0",
   "tested": "7.0",
   "requires_php": "8.0",
-  "last_updated": "2026-06-12",
+  "last_updated": "2026-06-13",
   "homepage": "https://solass.com.ua",
   "short_description": "REST API для підключення сайту до Claude AI.",
   "download_url": "https://raw.githubusercontent.com/govras75/site-claude-updates/main/solass-site-claude.zip",
   "sections": {
-    "description": "REST API плагін для підключення WordPress сайту до Claude AI: читання файлів, директорій, логів, інфо про сервер і WordPress через GET-запити з токеном або через /discover. Оновлення з GitHub.",
-    "changelog": "<h4>2.5.1</h4><ul><li>Канал оновлень переведено на GitHub (raw, стабільні URL, оновлення на місці)</li></ul><h4>2.5.0</h4><ul><li>Механізм віддаленого оновлення, /discover, ліміт 25 МБ</li></ul>"
+    "description": "REST API плагін для підключення WordPress сайту до Claude AI. Оновлення з GitHub.",
+    "changelog": "<h4>2.5.2</h4><ul><li>Тестовий пуш — перевірка автооновлення з GitHub</li></ul><h4>2.5.1</h4><ul><li>Канал оновлень переведено на GitHub</li></ul>"
   }
 }

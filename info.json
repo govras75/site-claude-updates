@@ -6,13 +6,13 @@
   "author_profile": "https://solass.com.ua",
   "requires": "5.0",
   "tested": "7.0",
-  "requires_php": "8.0",
+  "requires_php": "7.4",
   "last_updated": "2026-06-13",
   "homepage": "https://solass.com.ua",
   "short_description": "REST API для підключення сайту до Claude AI.",
   "download_url": "https://raw.githubusercontent.com/govras75/site-claude-updates/main/solass-site-claude.zip",
   "sections": {
     "description": "REST API плагін для підключення WordPress сайту до Claude AI. Оновлення з GitHub.",
-    "changelog": "<h4>2.5.2</h4><ul><li>Тестовий пуш — перевірка автооновлення з GitHub</li></ul><h4>2.5.1</h4><ul><li>Канал оновлень переведено на GitHub</li></ul>"
+    "changelog": "<h4>2.5.2</h4><ul><li>Сумісність із PHP 7.4 (прибрано union-типи та str_starts_with) — щоб не ламався wp-cli на старому CLI PHP</li><li>Канал оновлень на GitHub</li></ul>"
   }
 }

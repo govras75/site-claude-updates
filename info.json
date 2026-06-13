@@ -1,7 +1,7 @@
 {
   "name": "SOLASS Site -> Claude",
   "slug": "solass-site-claude",
-  "version": "2.5.3",
+  "version": "2.6.0",
   "author": "SOLASS / Oleh Hovras",
   "author_profile": "https://solass.com.ua",
   "requires": "5.0",
@@ -13,6 +13,6 @@
   "download_url": "https://raw.githubusercontent.com/govras75/site-claude-updates/main/solass-site-claude.zip",
   "sections": {
     "description": "REST API плагін для підключення WordPress сайту до Claude AI. Оновлення з GitHub.",
-    "changelog": "<h4>2.5.3</h4><ul><li>Прибрано останній union-тип (int|float) — повна сумісність із PHP 7.4 / консольним wp-cli</li></ul>"
+    "changelog": "<h4>2.6.0</h4><ul><li>Захист: заборона перезапису критичних файлів через write-file (wp-config.php, .htaccess, ядро wp-admin/wp-includes, wp-load/wp-settings тощо)</li><li>Безпека: при читанні wp-config.php паролі, ключі та salts автоматично приховуються (***REDACTED***)</li></ul><h4>2.5.3</h4><ul><li>Повна сумісність із PHP 7.4</li></ul>"
   }
 }

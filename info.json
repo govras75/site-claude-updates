@@ -1,7 +1,7 @@
 {
   "name": "SOLASS Site -> Claude",
   "slug": "solass-site-claude",
-  "version": "2.8.8.1",
+  "version": "2.8.8.2",
   "author": "<a href='https://solass.com.ua/'>SOLASS</a>",
   "author_profile": "https://solass.com.ua/",
   "requires": "5.0",

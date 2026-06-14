@@ -1,18 +1,1 @@
-{
-  "name": "SOLASS Site -> Claude",
-  "slug": "solass-site-claude",
-  "version": "2.7.0",
-  "author": "SOLASS / Oleh Hovras",
-  "author_profile": "https://solass.com.ua",
-  "requires": "5.0",
-  "tested": "7.0",
-  "requires_php": "7.4",
-  "last_updated": "2026-06-14",
-  "homepage": "https://solass.com.ua",
-  "short_description": "REST API для підключення сайту до Claude AI.",
-  "download_url": "https://raw.githubusercontent.com/govras75/site-claude-updates/main/solass-site-claude.zip",
-  "sections": {
-    "description": "REST API плагін для підключення WordPress сайту до Claude AI. Оновлення з GitHub.",
-    "changelog": "<h4>2.7.0</h4><ul><li>site-state — повний знімок сайту одним запитом</li><li>read-file-chunk — читання великих файлів шматками</li><li>tail-file — хвіст лог-файлу</li><li>force-update — оновлення плагіна з GitHub без адмінки</li><li>Апдейтер винесено в includes/class-updater.php</li><li>Cache-Control: no-store + X-Solass-Time на всі відповіді</li><li>Клікабельний автор SOLASS у plugins_api</li></ul><h4>2.6.0</h4><ul><li>Захист критичних файлів від перезапису</li><li>Маскування секретів у wp-config.php</li></ul>"
-  }
-}
+{"name": "SOLASS Site -> Claude", "slug": "solass-site-claude", "version": "2.7.1", "author": "SOLASS", "author_profile": "https://solass.com.ua", "requires": "5.0", "tested": "7.0", "requires_php": "7.4", "last_updated": "2026-06-14", "homepage": "https://solass.com.ua", "short_description": "REST API для підключення сайту до Claude AI.", "download_url": "https://raw.githubusercontent.com/govras75/site-claude-updates/main/solass-site-claude.zip", "sections": {"description": "REST API плагін для підключення WordPress сайту до Claude AI.", "changelog": "<h4>2.7.1</h4><ul><li>Виправлено: автор SOLASS з посиланням на solass.com.ua</li><li>Додано: посилання \"Переглянути деталі\" завжди видиме</li><li>Додано: перемикач авто-оновлення завжди видимий</li></ul><h4>2.7.0</h4><ul><li>site-state, read-file-chunk, tail-file, force-update</li><li>Апдейтер винесено в includes/class-updater.php</li><li>Cache-Control: no-store + X-Solass-Time</li></ul>"}}
